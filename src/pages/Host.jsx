@@ -49,13 +49,7 @@ const Host = () => {
         <span className="uppercase text-[2.2vw] tracking-tighter leading-[1] text-zinc-600 font-semibold mb-[2vw]">
           Website Hosted Successfully
         </span>
-        <animated-icons
-          src="https://animatedicons.co/get-icon?name=Success&style=minimalistic&token=2cb0da6b-0dad-4d02-8599-79b76c0333fb"
-          trigger="loop"
-          attributes='{"variationThumbColour":"#000000","variationName":"Dark","variationNumber":4,"numberOfGroups":2,"strokeWidth":2.5,"backgroundIsGroup":true,"defaultColours":{"group-1":"#E6E9EC","group-2":"#005400FF","background":"#56CE7BFF"}}'
-          height="200"
-          width="200"
-        ></animated-icons>
+        <img src="/Success.svg" className="h-[10vw] my-[2vw]" alt="" />
         <form
           onSubmit={onSubmit}
           className="w-full mt-[1.8vw] flex justify-between"
