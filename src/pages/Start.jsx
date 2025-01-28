@@ -32,7 +32,7 @@ const Start = () => {
   };
 
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-center bg-[url(https://res.cloudinary.com/djz9ifbzg/image/upload/v1737994770/start-bg_atkb7g.jpgcd)] bg-cover bg-center">
+    <div className="w-full min-h-screen flex flex-col items-center justify-center bg-[url(https://res.cloudinary.com/djz9ifbzg/image/upload/v1737994770/start-bg_atkb7g.jpg)] bg-cover bg-center">
       <div className="w-[38vw] z-50 h-[12.6vw] bg-zinc-200 rounded-[1.1vw] p-[1.1vw] flex flex-col items-center shadow-xl">
         <span className="uppercase text-[1.4vw] leading-[1] text-zinc-600 font-semibold">
           Hello There
