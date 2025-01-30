@@ -4,6 +4,8 @@ import { GlobalContext } from "../context/GlobalContext";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
 import SectionShare from "../components/SectionShare";
+import DareToScan from "../components/DareToScan";
+import Adventure from "../components/Adventure";
 
 const Home = () => {
   const { isUser } = useContext(GlobalContext);
@@ -44,6 +46,8 @@ const Home = () => {
     <div className="w-full min-h-screen flex flex-col">
       <Section1 />
       <Section2 />
+      <DareToScan />
+      <Adventure />
       <SectionShare />
     </div>
   );
