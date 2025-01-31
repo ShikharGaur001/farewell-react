@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Section2 = () => {
   return (
@@ -9,7 +10,20 @@ const Section2 = () => {
         alt=""
       />
       <div className="w-full mt-[4vw] flex flex-col items-center gap-[2vw]">
-        <div className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between">
+        <motion.div
+          initial={{
+            marginLeft: "160vw",
+          }}
+          whileInView={{
+            marginLeft: "0vw",
+          }}
+          transition={{
+            duration: 1.4,
+            ease: "easeIn",
+            type: "spring",
+          }}
+          className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between"
+        >
           <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
           <div className="h-full flex flex-col w-[58vw]">
             <h1 className="text-[3.333vw] font-semibold">Principal Ma'am</h1>
@@ -38,8 +52,21 @@ const Section2 = () => {
             <p>With endless blessings,</p>
             <p>Principal Mrs. Anita Tiagi</p>
           </div>
-        </div>
-        <div className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex-row-reverse flex items-center justify-between">
+        </motion.div>
+        <motion.div
+          initial={{
+            marginRight: "160vw",
+          }}
+          whileInView={{
+            marginRight: "0vw",
+          }}
+          transition={{
+            duration: 1.4,
+            ease: "easeIn",
+            type: "spring",
+          }}
+          className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex-row-reverse flex items-center justify-between"
+        >
           <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
           <div className="h-full flex flex-col w-[58vw] items-end">
             <h1 className="text-[3.333vw] font-semibold">Director Sir</h1>
@@ -65,8 +92,21 @@ const Section2 = () => {
             <p className="text-right">Warm regards,</p>
             <p className="text-right">Director Mr. Adarsh Tyagi</p>
           </div>
-        </div>
-        <div className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between">
+        </motion.div>
+        <motion.div
+          initial={{
+            marginLeft: "160vw",
+          }}
+          whileInView={{
+            marginLeft: "0vw",
+          }}
+          transition={{
+            duration: 1.4,
+            ease: "easeIn",
+            type: "spring",
+          }}
+          className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between"
+        >
           <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
           <div className="h-full flex flex-col w-[58vw]">
             <h1 className="text-[3.333vw] font-semibold">Chairman Sir</h1>
@@ -92,8 +132,21 @@ const Section2 = () => {
             <p>With blessings,</p>
             <p>Chairman Mr. V.K. Tyagi</p>
           </div>
-        </div>
-        <div className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex-row-reverse flex items-center justify-between">
+        </motion.div>
+        <motion.div
+          initial={{
+            marginRight: "160vw",
+          }}
+          whileInView={{
+            marginRight: "0vw",
+          }}
+          transition={{
+            duration: 1.4,
+            ease: "easeIn",
+            type: "spring",
+          }}
+          className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex-row-reverse flex items-center justify-between"
+        >
           <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
           <div className="h-full flex flex-col w-[58vw] items-end">
             <h1 className="text-[3.333vw] font-semibold">President Ma'am</h1>
@@ -122,11 +175,26 @@ const Section2 = () => {
             <p className="text-right">Warm regards,</p>
             <p className="text-right">President Mrs. Kusum Tyagi</p>
           </div>
-        </div>
-        <div className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between">
+        </motion.div>
+        <motion.div
+          initial={{
+            marginLeft: "160vw",
+          }}
+          whileInView={{
+            marginLeft: "0vw",
+          }}
+          transition={{
+            duration: 1.4,
+            ease: "easeIn",
+            type: "spring",
+          }}
+          className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between"
+        >
           <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
           <div className="h-full flex flex-col w-[58vw]">
-            <h1 className="text-[3.333vw] font-semibold">Administrative Ma'am</h1>
+            <h1 className="text-[3.333vw] font-semibold">
+              Administrative Ma'am
+            </h1>
             <h4 className="uppercase text-[1.25vw] leading-[1] font-medium bg-gradient-to-tr from-[#1f89db] to-[#f42a8b] bg-clip-text text-transparent w-[11vw] mb-[1vw]">
               Mrs. Priya Tyagi
             </h4>
@@ -152,7 +220,7 @@ const Section2 = () => {
             <p>Warm regards,</p>
             <p>Administrative Head Mrs. Priya Tyagi</p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
