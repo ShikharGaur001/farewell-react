@@ -147,7 +147,9 @@ const Section2 = () => {
           }}
           className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex-row-reverse flex items-center justify-between"
         >
-          <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
+          <div className="h-full w-[24vw] rounded-2xl overflow-hidden object-cover">
+            <img src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738426206/president_jlbfni.jpg" className="h-full w-full" alt="" />
+          </div>
           <div className="h-full flex flex-col w-[58vw] items-end">
             <h1 className="text-[3.333vw] font-semibold">President Ma'am</h1>
             <h4 className="uppercase text-[1.25vw] leading-[1] font-medium bg-gradient-to-tr from-[#1f89db] to-[#f42a8b] bg-clip-text text-transparent w-[12vw] mb-[1vw]">

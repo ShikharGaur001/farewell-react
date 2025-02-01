@@ -31,7 +31,7 @@ const Password = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    if (password === "2002") {
+    if (password === "Password") {
       navigate("/hosted");
     } else {
       toast.error("Password Invalid!");

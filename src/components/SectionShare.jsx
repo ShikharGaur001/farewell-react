@@ -12,7 +12,7 @@ const SectionShare = () => {
   };
 
   return (
-    <section className="w-full py-[2vw] flex flex-col items-center min-h-screen bg-gradient-to-br from-[#11998e] to-[#38ef7d]">
+    <section className="w-full py-[2vw] flex flex-col items-center h-[53.542vw] bg-gradient-to-br from-[#11998e] to-[#38ef7d]">
       <h1 className="text-[5vw] font-bold bg-[url(https://res.cloudinary.com/djz9ifbzg/image/upload/v1738029066/text8_sfnrwc.jpg)] bg-bottom bg-clip-text bg-cover text-transparent">
         Share This Site
       </h1>
