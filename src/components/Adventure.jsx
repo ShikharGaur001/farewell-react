@@ -6,8 +6,15 @@ const Adventure = () => {
     <section className="w-full overflow-hidden flex flex-col items-center bg-gradient-to-br from-[#FFEEEE] to-[#DDEFBB]">
       <div className="flex w-full h-screen">
         <div className="pt-[2vw] w-[60vw] h-full pl-[2vw] flex flex-col">
-          <h1 className="text-[4vw] font-semibold mb-[2vw]">Your Adventures</h1>
+          <h1 className="text-[7vw] tracking-tighter font-semibold mb-[2vw] bg-[url(https://res.cloudinary.com/djz9ifbzg/image/upload/v1738029063/text5_m22ldq.jpg)] bg-cover bg-center bg-clip-text text-transparent">Your Adventures</h1>
           <div className="bg-green-200 h-[30vw] w-full rounded-2xl"></div>
+          <div className="w-full h-[5vw] mt-[2vw] flex gap-[2vw] px-[2vw]">
+            <div className="bg-teal-200 h-full w-[5vw] rounded-xl"></div>
+            <div className="bg-teal-200 h-full w-[5vw] rounded-xl"></div>
+            <div className="bg-teal-200 h-full w-[5vw] rounded-xl"></div>
+            <div className="bg-teal-200 h-full w-[5vw] rounded-xl"></div>
+            <div className="bg-teal-200 h-full w-[5vw] rounded-xl"></div>
+          </div>
         </div>
         <div className="w-[40vw] h-full flex justify-center gap-[2vw] px-[2vw]">
           <motion.div
