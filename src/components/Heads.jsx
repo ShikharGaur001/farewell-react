@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Heads = () => {
   return (
@@ -8,7 +9,29 @@ const Heads = () => {
       </h1>
       <div className="w-full h-[44vw] z-20 flex justify-around">
         <div className="h-full w-[30vw] flex flex-col items-center">
-          <div className="bg-lime-200 w-full h-[38vw]"></div>
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: "10vw",
+            }}
+            whileInView={{
+              y: "0vw",
+              opacity: 1,
+            }}
+            transition={{
+              duration: 1,
+              ease: "easeIn",
+              type: "spring",
+            }}
+            className="w-full h-[38vw] relative flex items-center flex-col"
+          >
+            <div className="bg-lime-200 rounded-2xl w-[24vw] h-[30vw] mt-[6vw] z-0 absolute"></div>
+            <img
+              className="h-[36vw] z-10"
+              src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738483285/WhatsApp_Image_2025-02-02_at_11.03.40_157b1c92__1_-removebg-preview_hcbcaw.png"
+              alt=""
+            />
+          </motion.div>
           <h2 className="text-[3.33vw] font-medium tracking-tighter">
             Pallavi Tyagi
           </h2>
@@ -17,10 +40,29 @@ const Heads = () => {
           </h4>
         </div>
         <div className="h-full w-[30vw] flex flex-col items-center">
-          <div className="w-full h-[38vw] relative flex flex-col items-center">
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: "10vw",
+            }}
+            whileInView={{
+              y: "0vw",
+              opacity: 1,
+            }}
+            transition={{
+              duration: 1,
+              ease: "easeIn",
+              type: "spring",
+            }}
+            className="w-full h-[38vw] relative flex flex-col items-center"
+          >
             <div className="bg-lime-200 rounded-2xl w-[24vw] h-[30vw] mt-[6vw] z-0 absolute"></div>
-            <img className="h-[40vw] z-10 mt-[-4vw]" src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738427332/WhatsApp_Image_2025-02-01_at_21.34.14_247c4bb2__1___1___1_-removebg-preview_dgjwdx.png" alt="" />
-          </div>
+            <img
+              className="h-[36vw] z-10"
+              src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738483285/1738482873327__1___1_-removebg-preview_cduuhe.png"
+              alt=""
+            />
+          </motion.div>
           <h2 className="text-[3.33vw] font-medium tracking-tighter">
             Harsh Mittal
           </h2>
