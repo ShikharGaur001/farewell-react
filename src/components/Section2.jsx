@@ -24,7 +24,13 @@ const Section2 = () => {
           }}
           className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between"
         >
-          <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
+          <div className="h-full w-[24vw] rounded-2xl overflow-hidden object-cover">
+            <img
+              src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738602420/WhatsApp_Image_2025-02-03_at_20.55.54_45d3e8c4_fcl4tu.jpg"
+              className="h-full w-full"
+              alt=""
+            />
+          </div>
           <div className="h-full flex flex-col w-[58vw]">
             <h1 className="text-[3.333vw] font-semibold">Principal Ma'am</h1>
             <h4 className="uppercase text-[1.25vw] leading-[1] font-medium bg-gradient-to-tr from-[#1f89db] to-[#f42a8b] bg-clip-text text-transparent w-[11vw] mb-[1vw]">
@@ -53,86 +59,7 @@ const Section2 = () => {
             <p>Principal Mrs. Anita Tiagi</p>
           </div>
         </motion.div>
-        <motion.div
-          initial={{
-            marginRight: "160vw",
-          }}
-          whileInView={{
-            marginRight: "0vw",
-          }}
-          transition={{
-            duration: 1.4,
-            ease: "easeIn",
-            type: "spring",
-          }}
-          className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex-row-reverse flex items-center justify-between"
-        >
-          <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
-          <div className="h-full flex flex-col w-[58vw] items-end">
-            <h1 className="text-[3.333vw] font-semibold">Director Sir</h1>
-            <h4 className="uppercase text-[1.25vw] leading-[1] font-medium bg-gradient-to-tr from-[#1f89db] to-[#f42a8b] bg-clip-text text-transparent w-[12vw] mb-[1vw]">
-              Mr. Adarsh Tyagi
-            </h4>
-            <p className="text-right">Dear Class 12 Graduates,</p>
-            <p className="text-right">
-              Throughout your years at A.V.M. Convent School, you have shown us
-              what determination and creativity can achieve.
-            </p>
-            <p className="text-right">
-              As you leave, I urge you to lead with integrity, to innovate
-              boldly, and to always stay curious. Your ideas have the potential
-              to change the world, and your actions can inspire others to
-              greatness.
-            </p>
-            <p className="text-right">
-              May your journey be filled with exciting challenges and boundless
-              opportunities. My blessings and support are with you as you step
-              into a world waiting for your brilliance.
-            </p>
-            <p className="text-right">Warm regards,</p>
-            <p className="text-right">Director Mr. Adarsh Tyagi</p>
-          </div>
-        </motion.div>
-        <motion.div
-          initial={{
-            marginLeft: "160vw",
-          }}
-          whileInView={{
-            marginLeft: "0vw",
-          }}
-          transition={{
-            duration: 1.4,
-            ease: "easeIn",
-            type: "spring",
-          }}
-          className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between"
-        >
-          <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
-          <div className="h-full flex flex-col w-[58vw]">
-            <h1 className="text-[3.333vw] font-semibold">Chairman Sir</h1>
-            <h4 className="uppercase text-[1.25vw] leading-[1] font-medium bg-gradient-to-tr from-[#1f89db] to-[#f42a8b] bg-clip-text text-transparent w-[11vw] mb-[1vw]">
-              Mr. V.K. Tyagi
-            </h4>
-            <p>Dear Class 12 Graduates,</p>
-            <p>
-              As you leave the sacred grounds of A.V.M. Convent School, remember
-              the divine teachings that have shaped your journey here. Seek
-              inspiration from the Vedas and Upanishads, which teach us to walk
-              the path of knowledge, truth, and righteousness. In every moment
-              of uncertainty, let the inner light of your atman (soul) guide you
-              toward decisions that align with your dharma. Know that success is
-              not measured by material gains but by how you contribute to the
-              world around you.
-            </p>
-            <p>
-              May Lord Vishnu bless you with wisdom and Lord Ganesha remove all
-              obstacles from your path. My heartfelt blessings are with you as
-              you embark on your journey.
-            </p>
-            <p>With blessings,</p>
-            <p>Chairman Mr. V.K. Tyagi</p>
-          </div>
-        </motion.div>
+
         <motion.div
           initial={{
             marginRight: "160vw",
@@ -148,7 +75,11 @@ const Section2 = () => {
           className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex-row-reverse flex items-center justify-between"
         >
           <div className="h-full w-[24vw] rounded-2xl overflow-hidden object-cover">
-            <img src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738426206/president_jlbfni.jpg" className="h-full w-full" alt="" />
+            <img
+              src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738426206/president_jlbfni.jpg"
+              className="h-full w-full"
+              alt=""
+            />
           </div>
           <div className="h-full flex flex-col w-[58vw] items-end">
             <h1 className="text-[3.333vw] font-semibold">President Ma'am</h1>
@@ -192,7 +123,105 @@ const Section2 = () => {
           }}
           className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between"
         >
-          <div className="h-full bg-purple-200 w-[24vw] rounded-2xl"></div>
+          <div className="h-full w-[24vw] rounded-2xl overflow-hidden object-cover">
+            <img
+              src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738602420/WhatsApp_Image_2025-02-03_at_20.55.55_bfb06e37_ma4tvf.jpg"
+              className="h-full w-full"
+              alt=""
+            />
+          </div>
+          <div className="h-full flex flex-col w-[58vw]">
+            <h1 className="text-[3.333vw] font-semibold">Chairman Sir</h1>
+            <h4 className="uppercase text-[1.25vw] leading-[1] font-medium bg-gradient-to-tr from-[#1f89db] to-[#f42a8b] bg-clip-text text-transparent w-[11vw] mb-[1vw]">
+              Mr. V.K. Tyagi
+            </h4>
+            <p>Dear Class 12 Graduates,</p>
+            <p>
+              As you leave the sacred grounds of A.V.M. Convent School, remember
+              the divine teachings that have shaped your journey here. Seek
+              inspiration from the Vedas and Upanishads, which teach us to walk
+              the path of knowledge, truth, and righteousness. In every moment
+              of uncertainty, let the inner light of your atman (soul) guide you
+              toward decisions that align with your dharma. Know that success is
+              not measured by material gains but by how you contribute to the
+              world around you.
+            </p>
+            <p>
+              May Lord Vishnu bless you with wisdom and Lord Ganesha remove all
+              obstacles from your path. My heartfelt blessings are with you as
+              you embark on your journey.
+            </p>
+            <p>With blessings,</p>
+            <p>Chairman Mr. V.K. Tyagi</p>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{
+            marginRight: "160vw",
+          }}
+          whileInView={{
+            marginRight: "0vw",
+          }}
+          transition={{
+            duration: 1.4,
+            ease: "easeIn",
+            type: "spring",
+          }}
+          className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex-row-reverse flex items-center justify-between"
+        >
+          <div className="h-full w-[24vw] rounded-2xl overflow-hidden object-cover">
+            <img
+              src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738602420/WhatsApp_Image_2025-02-03_at_20.55.55_69553cbc_ekk7lt.jpg"
+              className="h-full w-full"
+              alt=""
+            />
+          </div>
+          <div className="h-full flex flex-col w-[58vw] items-end">
+            <h1 className="text-[3.333vw] font-semibold">Director Sir</h1>
+            <h4 className="uppercase text-[1.25vw] leading-[1] font-medium bg-gradient-to-tr from-[#1f89db] to-[#f42a8b] bg-clip-text text-transparent w-[12vw] mb-[1vw]">
+              Mr. Adarsh Tyagi
+            </h4>
+            <p className="text-right">Dear Class 12 Graduates,</p>
+            <p className="text-right">
+              Throughout your years at A.V.M. Convent School, you have shown us
+              what determination and creativity can achieve.
+            </p>
+            <p className="text-right">
+              As you leave, I urge you to lead with integrity, to innovate
+              boldly, and to always stay curious. Your ideas have the potential
+              to change the world, and your actions can inspire others to
+              greatness.
+            </p>
+            <p className="text-right">
+              May your journey be filled with exciting challenges and boundless
+              opportunities. My blessings and support are with you as you step
+              into a world waiting for your brilliance.
+            </p>
+            <p className="text-right">Warm regards,</p>
+            <p className="text-right">Director Mr. Adarsh Tyagi</p>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{
+            marginLeft: "160vw",
+          }}
+          whileInView={{
+            marginLeft: "0vw",
+          }}
+          transition={{
+            duration: 1.4,
+            ease: "easeIn",
+            type: "spring",
+          }}
+          className="bg-purple-100 w-full rounded-3xl h-[34vw] p-[2vw] flex items-center justify-between"
+        >
+          <div className="h-full w-[24vw] rounded-2xl overflow-hidden object-cover">
+            <img
+              src="https://res.cloudinary.com/djz9ifbzg/image/upload/v1738602418/WhatsApp_Image_2025-02-03_at_20.55.56_8f05a370_r920rx.jpg"
+              className="h-full w-full"
+              alt=""
+            />
+          </div>
           <div className="h-full flex flex-col w-[58vw]">
             <h1 className="text-[3.333vw] font-semibold">
               Administrative Ma'am
