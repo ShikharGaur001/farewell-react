@@ -7,6 +7,7 @@ import SectionShare from "../components/SectionShare";
 import DareToScan from "../components/DareToScan";
 import Adventure from "../components/Adventure";
 import Heads from "../components/Heads";
+import SlideText from "../components/SlideText";
 
 const Home = () => {
   const { isUser } = useContext(GlobalContext);
@@ -49,6 +50,7 @@ const Home = () => {
       <Section2 />
       <Heads />
       <DareToScan />
+      <SlideText />
       <Adventure />
       <SectionShare />
     </div>
