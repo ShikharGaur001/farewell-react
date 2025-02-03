@@ -8,6 +8,7 @@ import DareToScan from "../components/DareToScan";
 import Adventure from "../components/Adventure";
 import Heads from "../components/Heads";
 import SlideText from "../components/SlideText";
+import NccSection from "../components/NccSection";
 
 const Home = () => {
   const { isUser } = useContext(GlobalContext);
@@ -52,6 +53,7 @@ const Home = () => {
       <DareToScan />
       <SlideText />
       <Adventure />
+      <NccSection />
       <SectionShare />
     </div>
   );
